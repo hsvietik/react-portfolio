@@ -1,4 +1,3 @@
-// import { HashRouter, Route } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 
 import './App.scss';
@@ -9,7 +8,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/react-portfolio/" element={<Layout />}>
+        <Route exact path="/" element={<Layout />}>
           <Route index element={<Home />} />
         </Route>
       </Routes>
