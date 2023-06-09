@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/react-portfolio" element={<Layout />}>
+        <Route exact path="/react-portfolio/" element={<Layout />}>
           <Route index element={<Home />} />
         </Route>
       </Routes>
